@@ -68,3 +68,9 @@ print(list(range(1,32)))
 
 for i in range(5):
     print(i)
+
+print("---리스트 함축---")
+lst = list(range(1,11))
+print([i**2 for i in lst if i > 5])
+fruits = ("apple", "orange", "kiwi")
+print([len(i) for i in fruits])
